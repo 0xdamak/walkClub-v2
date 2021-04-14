@@ -3,10 +3,22 @@
     margin: 7rem 0 0 10rem;
     justify-content: center;
 
+    @include respond(1080px) {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
     &__title {
         width: 40%;
         padding-right: 10rem;
         margin-top: 8rem;
+
+        @include respond(1080px) {
+            padding-right: 0;
+            margin-top: -10rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
     &__h1 {
@@ -55,6 +67,10 @@
         width: 100%;
         padding-bottom: 56.25%; 
         height: 0;
+
+        @include respond(1080px) {
+            padding-bottom: 75%;
+        }
 
         iframe {
             position: absolute;
