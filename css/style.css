@@ -36,7 +36,6 @@ body {
   font-size: 6rem;
   font-weight: 300;
   text-align: center;
-  text-transform: uppercase;
   position: relative;
 }
 
@@ -296,5 +295,31 @@ body {
 .section__screenshots--img img {
   height: 50rem;
   margin: 0 3rem;
+}
+
+.section__testimonials {
+  margin-top: 15rem;
+  padding: 8rem;
+  height: 50rem;
+  background-color: #191C21;
+}
+
+.section__download {
+  margin-top: 5rem;
+}
+
+.section__download .box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: 0 20rem;
+}
+
+.section__download .box div {
+  height: 10rem;
+  width: 33rem;
+  background-color: #191C21;
+  border-radius: .4rem;
+  border: 1px solid #272c33;
 }
 /*# sourceMappingURL=style.css.map */

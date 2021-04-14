@@ -46,4 +46,30 @@
             }
         }
     }
+
+    &__testimonials {
+        margin-top: 15rem;
+        padding: 8rem;
+        height: 50rem;
+        background-color: #191C21;
+    }
+
+    &__download {
+        margin-top: 5rem;
+
+        .box {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+            margin: 0 20rem;
+
+            div {
+                height: 10rem;
+                width: 33rem;
+                background-color: #191C21;
+                border-radius: .4rem;
+                border: 1px solid #272c33;
+            }
+        }
+    }
 }
