@@ -1,12 +1,12 @@
-.home-main {
+.section {
     &__features {
         display: flex;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
 
         &--card {
             text-align: center;
-            padding: 7rem;
+            padding: 5rem;
             border: 1px solid transparent;
             transition: all .3s ease-in-out;
             margin: 0 1rem;
@@ -28,6 +28,21 @@
             p {
                 font-size: 2rem;
                 font-weight: 300;
+            }
+        }
+    }
+
+    &__screenshots {
+        margin-top: 15rem;
+
+        &--img {
+            margin-top: 10rem;
+            display: flex;
+            justify-content: center;
+
+            img {
+                height: 50rem;
+                margin: 0 3rem;
             }
         }
     }
